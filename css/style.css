@@ -7,35 +7,48 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 1550px;
+}
+
+.container {
+  min-width: 1660px;
+  margin: 0px auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
 /* HEADER */
 
 header {
-  background-color: #3161E0
+  background-color: #3161E0;
+  text-align: center;
 }
 
 
 /* HEADER - MENU'*/
 
-.menu { 
+.menu-header { 
   display: inline-block;
-  margin: 10px auto;
+  margin: 15px auto;
+
 }
 
 .accedi {
   color: black;
   background-color: white;
   text-align: center;
-  padding: 5px 20px;
-  border-radius: 15px;
+  padding: 12px 20px;
+  border-radius: 25px;
 }
+
   
-
-
 nav ul {
   display: inline-block;
 }
@@ -51,15 +64,77 @@ nav ul li a {
   text-decoration: none;
   margin: 0 25px;
 }
-
+/* 
 nav ul li a:hover {
   color: rgb(0, 0, 0);
-}
+} */
 
 
 
 
 /* JUMBOTRON */
+
+.jumbotron {
+  background: url(../img/jumbo.png);
+  background-size: cover;
+  height: 1251px;
+  position: relative;
+}
+
+.jumbotron-text {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.jumbotron-text p {
+  padding: 50px 0;
+}
+
+.jumbotron-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+p::first-letter {
+  text-transform: capitalize;
+}
+
+#discord {
+  text-transform: capitalize;
+}
+
+.menu-jumbotron {
+  text-align: center;
+}
+
+
+.mac {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 25px 50px;
+  border-radius: 50px;
+}
+
+.browser {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 25px 50px;
+  border-radius: 50px;
+}
+
+
 
 
 /* MAIN */

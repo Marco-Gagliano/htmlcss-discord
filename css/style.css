@@ -14,13 +14,19 @@ body {
 
 .container {
   min-width: 1660px;
-  margin: 0px auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+
+#discord {
+  text-transform: capitalize;
 }
 
 
@@ -37,7 +43,10 @@ header {
 .menu-header { 
   display: inline-block;
   margin: 15px auto;
+}
 
+.logo img {
+  padding-top: 10px;
 }
 
 .accedi {
@@ -54,7 +63,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block;
+  display: inline;
 }
 
 nav ul li a { 
@@ -109,9 +118,6 @@ p::first-letter {
   text-transform: capitalize;
 }
 
-#discord {
-  text-transform: capitalize;
-}
 
 .menu-jumbotron {
   text-align: center;
@@ -138,9 +144,9 @@ p::first-letter {
 }
 
 
-
-
 /* MAIN */
+
+
 
 
 /* MAIN - CONTAINER 1 */
@@ -149,16 +155,23 @@ p::first-letter {
   background-color: #FFFFFF;
 }
 
-.content-text-1 {
-  float: right;
+.content-1 img {
+float: left;
 }
+
 
 
 /* MAIN - CONTAINER 2 */
 
 
 .content-2 {
-  background-color: #F6F6F6;
+  background-color: #747474;
+  text-align: center;
+}
+
+
+.content-2 img {
+  float: right;
 }
 
 
@@ -213,12 +226,14 @@ text-transform: capitalize;
 }
   
 .contact {
-  display: inline-block;
+  float: left;
+  display: flex
 }
 
 .contact ul li {
   text-decoration: none;
   list-style: none;
+  vertical-align: middle;
 }
 
 .contact ul li a {

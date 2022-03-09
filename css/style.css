@@ -91,18 +91,18 @@ nav ul li a:hover {
   font-size: 32px;
 }
 
+.jumbotron h1 {
+  text-transform: capitalize;
+}
+
 .jumbotron-text p {
   padding: 50px 0;
 }
 
 .jumbotron-menu {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-}
-
-h1 {
-  text-transform: capitalize;
 }
 
 p::first-letter {
@@ -117,21 +117,24 @@ p::first-letter {
   text-align: center;
 }
 
+.mac .browser {
+  display: inline-block;
+}
 
 .mac {
-  color: black;
-  background-color: white;
+  background-color: #FFFFFF;
   text-align: center;
   padding: 25px 50px;
   border-radius: 50px;
+  color: #000000
 }
 
 .browser {
-  color: white;
-  background-color: black;
+  background-color: #000000;
   text-align: center;
   padding: 25px 50px;
   border-radius: 50px;
+  color: #FFFFFF;
 }
 
 
@@ -142,14 +145,63 @@ p::first-letter {
 
 /* MAIN - CONTAINER 1 */
 
+.content-1 {
+  background-color: #FFFFFF;
+}
+
+.content-text-1 {
+  float: right;
+}
+
 
 /* MAIN - CONTAINER 2 */
 
 
+.content-2 {
+  background-color: #F6F6F6;
+}
+
+
 /* MAIN - CONTAINER 3 */
+
+.content-3 {
+  background-color: #FFFFFF;
+}
 
 
 /* MAIN - CONTAINER 4 */
+
+.content-4 {
+  background-color: #F6F6F6;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.content-4-text-1 h1 {
+  font-size: 40px;
+  padding: 25px 0;
+}
+
+
+.content-4-text-1 h1::first-letter {
+  text-transform: capitalize;
+}
+
+.content-4-text-1 p {
+  padding: 0 450px;
+}
+
+.content-4-text-2 img {
+  width: 35%;
+}
+
+.content-4-text-2 h1 {
+padding-top: 10px;
+}
+
+.content-4-text-2 h1::first-letter {
+text-transform: capitalize;
+}
 
 
 /* FOOTER */

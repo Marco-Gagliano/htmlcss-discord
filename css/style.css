@@ -206,6 +206,28 @@ text-transform: capitalize;
 
 /* FOOTER */
 
+.footer-top {
+  background-color: #23272A;
+  padding-top: 100px;
+  display: inline-block;
+}
+  
+.contact {
+  display: inline-block;
+}
+
+.contact ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.contact ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
 
 /* FOOTER - CONTACS */
 

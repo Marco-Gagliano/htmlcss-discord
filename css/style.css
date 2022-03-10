@@ -216,6 +216,32 @@ font-weight: bold;
 /* MAIN - CONTAINER 3 */
 
 
+.content-3 {
+  background-color: #FFFFFF;
+  min-height: 600px;
+  padding-top: 100px;
+}
+
+.content-3-img {
+  width: 50%;
+}
+
+.content-3-text {
+  width: 50%;
+  padding-top: 80px;
+  padding-left: 170px;
+}
+
+
+.content-3-text h2 {
+  font-size: 40px;
+
+}
+
+.content-3-text p {
+
+  font-size: 18px;
+}
 
 
 /* MAIN - CONTAINER 4 */

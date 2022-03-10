@@ -263,14 +263,14 @@ font-weight: bold;
 /* FOOTER */
 
 .footer-top {
-  background-color: #23272A;
+
   padding-top: 100px;
   display: inline-block;
 }
   
 .contact {
   float: left;
-  display: flex
+
 }
 
 .contact ul li {
@@ -285,9 +285,24 @@ font-weight: bold;
 }
 
 
+/* FOOTER */
+
+footer {
+  min-height: 500px;
+  background-color: #23272A;
+}
 
 
 /* FOOTER - CONTACS */
+
+.columns {
+  width: calc(100% / 6);
+}
+
+.columns:first-of-type {
+  width: calc(100% / 3);
+}
+
 
 
 /* FOOTER - CREDITS */

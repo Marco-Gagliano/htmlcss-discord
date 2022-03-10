@@ -232,14 +232,12 @@ font-weight: bold;
   padding-left: 170px;
 }
 
-
 .content-3-text h2 {
   font-size: 40px;
-
 }
 
 .content-3-text p {
-
+  padding-top: 20px;
   font-size: 18px;
 }
 
@@ -252,30 +250,13 @@ font-weight: bold;
   text-align: center;
 }
 
-.content-4-text-1 h1 {
+.content-4-img h2 {
   font-size: 40px;
   padding: 25px 0;
 }
 
-
-.content-4-text-1 h1::first-letter {
-  text-transform: capitalize;
-}
-
-.content-4-text-1 p {
-  padding: 0 450px;
-}
-
-.content-4-text-2 img {
-  width: 35%;
-}
-
-.content-4-text-2 h1 {
-padding-top: 10px;
-}
-
-.content-4-text-2 h1::first-letter {
-text-transform: capitalize;
+.content-4-img p {
+  padding: 0 150px;
 }
 
 

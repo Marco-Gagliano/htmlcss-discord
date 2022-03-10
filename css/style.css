@@ -59,15 +59,7 @@ header {
   width: calc(100% - 200px);
 }
 
-.button {
-  color: black;
-  background-color: white;
-  text-align: center;
-  padding: 10px 1px;
-  border-radius: 25px;
-}
 
-  
 nav li {
   display: inline-block;
 }
@@ -78,81 +70,85 @@ nav li a {
   text-transform: capitalize;
   text-decoration: none;
   padding-right: 30px;
-;
+  ;
 }
-/* 
+
 nav ul li a:hover {
-  color: rgb(0, 0, 0);
-} */
+  text-decoration: underline;
+  font-weight: bold;
+}
 
+.button {
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
 
+.button:hover {
+  color: #3161E0
+}
 
 
 /* JUMBOTRON */
 
 .jumbotron {
+  height: 550px;
+  padding: 75px;
   background: url(../img/jumbo.png);
   background-size: cover;
-  height: 1251px;
-  position: relative;
+  background-position: center;
+
 }
 
 .jumbotron-text {
-  position: absolute;
-  transform: translate(-50%, 50%);
-  top: 50%;
-  left: 50%;
   color: white;
   text-align: center;
-  font-size: 32px;
 }
 
 .jumbotron h1 {
-  text-transform: capitalize;
+font-size: 50px;
+margin-bottom: 30px;
 }
 
-.jumbotron-text p {
-  padding: 50px 0;
+.jumbotron p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 180px;
 }
 
-.jumbotron-menu {
-  position: absolute;
-  top: 30%;
-  left: 50%;
+.jumbo-button {
+  padding-top: 50px;
 }
 
-p::first-letter {
-  text-transform: capitalize;
-}
-
-
-.menu-jumbotron {
+.jumbo-button a{
   text-align: center;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  margin: 0 10px;
 }
 
-.mac .browser {
-  display: inline-block;
+.jumbo-button a:hover {
+text-decoration: underline;
+font-weight: bold;
 }
 
 .mac {
   background-color: #FFFFFF;
-  text-align: center;
-  padding: 25px 50px;
-  border-radius: 50px;
   color: #000000
 }
 
 .browser {
   background-color: #000000;
-  text-align: center;
-  padding: 25px 50px;
-  border-radius: 50px;
   color: #FFFFFF;
 }
 
 
 /* MAIN */
-
 
 
 

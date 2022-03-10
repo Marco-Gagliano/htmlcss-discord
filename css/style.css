@@ -141,6 +141,9 @@ font-weight: bold;
   background-color: #FFFFFF;
   color: #000000
 }
+.mac:first-of-type {
+
+}
 
 .browser {
   background-color: #000000;
@@ -156,33 +159,66 @@ font-weight: bold;
 
 .content-1 {
   background-color: #FFFFFF;
+  min-height: 600px;
+  padding-top: 100px;
 }
 
-.content-1 img {
-float: left;
+.content-1-img {
+  width: 50%;
 }
 
+
+.content-1-text{
+  width: 50%;
+  padding: 30px 0 0 250px;
+}
+
+.content-1-text h2 {
+  padding-right: 60px;
+  font-size: 35px;
+}
+
+.content-1-text p {
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
 
 
 /* MAIN - CONTAINER 2 */
 
 
 .content-2 {
-  background-color: #747474;
-  text-align: center;
+  background-color: #F6F6F6;
+  min-height: 600px;
+  padding-top: 100px;
+}
+
+.content-2-img {
+  width: 50%;
+}
+
+.content-2-text{
+  width: 50%;
+  padding-left: 250px;
+  padding-right: 50px;
 }
 
 
-.content-2 img {
-  float: right;
+
+
+.content-2-text h2 {
+  font-size: 35px;
 }
+
+.content-2-text p {
+  padding-right: 65px;
+  font-size: 18px;
+}
+
 
 
 /* MAIN - CONTAINER 3 */
-
-.content-3 {
-  background-color: #FFFFFF;
-}
 
 
 /* MAIN - CONTAINER 4 */

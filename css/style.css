@@ -12,21 +12,28 @@ body {
   min-width: 1550px;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
-  min-width: 1660px;
-  width: 100%;
+  width: 80%;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
 .clearfix::after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
 }
-
 
 #discord {
   text-transform: capitalize;
+}
+
+.float {
+  float: left;
 }
 
 
@@ -34,44 +41,44 @@ body {
 
 header {
   background-color: #3161E0;
-  text-align: center;
+  height: 100px;
+  line-height: 100px;
 }
 
 
 /* HEADER - MENU'*/
 
-.menu-header { 
-  display: inline-block;
-  margin: 15px auto;
-}
 
 .logo img {
-  padding-top: 10px;
+  vertical-align: middle;
+
 }
 
-.accedi {
+.menu {
+  text-align: center;
+  width: calc(100% - 200px);
+}
+
+.button {
   color: black;
   background-color: white;
   text-align: center;
-  padding: 12px 20px;
+  padding: 10px 1px;
   border-radius: 25px;
 }
 
   
-nav ul {
+nav li {
   display: inline-block;
 }
 
-nav ul li {
-  display: inline;
-}
 
-nav ul li a { 
+nav li a { 
   color: white;
   text-transform: capitalize;
-  list-style: none;
   text-decoration: none;
-  margin: 0 25px;
+  padding-right: 30px;
+;
 }
 /* 
 nav ul li a:hover {

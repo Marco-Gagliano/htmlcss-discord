@@ -28,10 +28,6 @@ ul {
   clear: both;
 }
 
-#discord {
-  text-transform: capitalize;
-}
-
 .float {
   float: left;
 }
@@ -84,12 +80,25 @@ nav ul li a:hover {
   padding: 10px 10px;
   border-radius: 25px;
   text-decoration: none;
-  text-transform: capitalize;
   font-weight: bold;
 }
 
 .button:hover {
   color: #3161E0
+}
+
+
+.button-2 {
+  color: rgb(255, 255, 255);
+  background-color: #8EA1E1;
+  padding: 15px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-2:hover {
+  color: black;
 }
 
 
@@ -141,18 +150,11 @@ font-weight: bold;
   background-color: #FFFFFF;
   color: #000000
 }
-.mac:first-of-type {
-
-}
 
 .browser {
   background-color: #000000;
   color: #FFFFFF;
 }
-
-
-/* MAIN */
-
 
 
 /* MAIN - CONTAINER 1 */
@@ -259,29 +261,20 @@ font-weight: bold;
   padding: 0 150px;
 }
 
+.content-4-text h2 {
+padding-bottom: 35px;
+}
+
+.content-4-text a::before {
+  content: (fa-solid fa-down-long);
+}
+
 
 /* FOOTER */
 
 .footer-top {
-
   padding-top: 100px;
   display: inline-block;
-}
-  
-.contact {
-  float: left;
-
-}
-
-.contact ul li {
-  text-decoration: none;
-  list-style: none;
-  vertical-align: middle;
-}
-
-.contact ul li a {
-  color: #FFFFFF;
-  text-decoration: none;
 }
 
 
@@ -289,12 +282,10 @@ font-weight: bold;
 
 footer {
   padding-top: 70px;
-  min-height: 500px;
+  height: 600px;
+  min-height: 650px;
   background-color: #23272A;
 }
-
-
-/* FOOTER - CONTACS */
 
 .columns {
   width: calc(100% / 6);
@@ -303,6 +294,9 @@ footer {
 .columns:first-of-type {
   width: calc(100% / 3);
 }
+
+
+/* FOOTER - LANGUAGE AND SOCIAL */
 
 .language h1 {
   font-size: 40px;
@@ -315,8 +309,13 @@ footer {
   padding: 30px 0;
 }
 
-.language span {
+.language a {
   color: white;
+  text-decoration: none;
+}
+
+.language a:hover {
+  text-decoration: underline;
 }
 
 .social li {
@@ -329,7 +328,47 @@ footer {
   padding-right: 20px
 }
 
+.submenu h2 {
+  color: #7289DA
+}
+
+
+/* FOOTER - CONTACS */
+
+.submenu li {
+  padding-bottom: 15px;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+}
+
 
 /* FOOTER - CREDITS */
 
+.footer-line {
+  padding-top: 30px;
+}
 
+.credits {
+padding-top: 30px;
+}
+
+.signup {
+  float: right;
+  color: rgb(255, 255, 255);
+  background-color: #8EA1E1;
+  padding: 8px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup:hover {
+  color: black;
+}
